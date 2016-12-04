@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskListImpl>
+    <person>
+        <complite>true</complite>
+        <contacts></contacts>
+        <description></description>
+        <dueDate>2016-12-04T22:26:00+03:00</dueDate>
+        <name></name>
+    </person>
+    <person>
+        <complite>true</complite>
+        <contacts>df</contacts>
+        <description>df</description>
+        <dueDate>2016-12-04T22:27:00+03:00</dueDate>
+        <name>df</name>
+    </person>
+    <person>
+        <complite>false</complite>
+        <contacts></contacts>
+        <description></description>
+        <dueDate>5559-08-26T07:55:00+03:00</dueDate>
+        <name></name>
+    </person>
+</taskListImpl>

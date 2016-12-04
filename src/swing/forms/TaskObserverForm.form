@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="swing.forms.TaskObserverForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="968" height="906"/>
+    </constraints>
+    <properties>
+      <background color="-2630936"/>
+      <minimumSize width="400" height="400"/>
+      <preferredSize width="700" height="700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="25035">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="10" bottom="10" right="10" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f6aa9" class="javax.swing.JList" binding="jListComponent">
+            <constraints/>
+            <properties>
+              <background color="-4008488"/>
+              <font name="Segoe Script" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="456cd" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="10" bottom="0" right="10" weightx="1.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <background color="-2630936"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b156f" class="javax.swing.JButton" binding="compliteButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-2630936"/>
+              <font name="Serif" size="24" style="0"/>
+              <preferredSize width="130" height="49"/>
+              <text value="Add "/>
+            </properties>
+          </component>
+          <component id="dacef" class="javax.swing.JButton" binding="deleteButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-2630936"/>
+              <font name="Serif" size="24" style="0"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="d6512" class="javax.swing.JButton" binding="updateButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-2630936"/>
+              <font name="Serif" size="24" style="0"/>
+              <text value="Update"/>
+            </properties>
+          </component>
+          <component id="fc3fd" class="javax.swing.JButton" binding="postponeButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-2630936"/>
+              <font name="Serif" size="24" style="0"/>
+              <preferredSize width="130" height="49"/>
+              <text value="Postpone"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bed90" binding="listSelectorPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.6" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
